@@ -1,4 +1,4 @@
-A generic [`core-auth`](https://github.com/intisy-ai/core-auth) provider for user-configured HTTP AI
+A generic [`core-auth`](https://github.com/forebay/core-auth) provider for user-configured HTTP AI
 endpoints. Instead of one upstream vendor, it drives any number of endpoints declared in its own
 config, each with its own wire format, translating canonical IR to and from that format via
 whichever vendor translators are installed. It vendors none itself: every `@intisy-ai/*-translator`
@@ -43,7 +43,7 @@ flowchart LR
 ### Via plugin-updater (recommended)
 
 ```bash
-npx plugin-updater@latest init https://github.com/intisy-ai/custom-auth
+npx plugin-updater@latest init https://github.com/forebay/custom-auth
 ```
 
 ### Via npm
